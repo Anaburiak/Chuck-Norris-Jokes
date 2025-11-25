@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris's Jokes</title>
+</head>
+<body>
+    <div class="container">
+        <h1>A form to get a joke from CHUCK NORRIS</h1>
+        <button onclick="getRandomJoke()">Get a random joke</button>
+        <form id="jokesForm">
+            <input type="hidden" id="jokeId">
+            <div class="form-group">
+                <textarea id="value" placeholder="Text of a joke" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="text" id="category" placeholder="Category">
+            </div>
+            <div class="form-group">
+                <select id="status">
+                    <option value="favorite">Favorite</option>
+                    <option value="funny">Funny</option>
+                    <option value="epic">Epic</option>
+                </select>
+            </div>
+            <button type="submit" id="submitBtn">Submit</button>
+            <button type="button" id="resetBtn">Reset</button>
+        </form>
+
+        <table id="jokesTable">
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Text</th>
+                    <th>Comment</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            <tbody id="jokesBody">
+                <!-- Jokes будут добавлены сюда -->
+            </tbody>
+        </table>
+    </div>
+    <script src="Ana.js"></script>
+</body>
+
+</html>

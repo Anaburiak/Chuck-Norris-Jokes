@@ -1,0 +1,16 @@
+{
+    "credits": [
+        {
+            "id": 1,
+            "value": "Chuck Norris can divide by zero",
+            "category": "dev",
+            "status": "favorite"
+        },
+        {
+            "id": 2,
+            "value": "Chuck Norris don't elect presidents, he select them.",
+            "category": "dev",
+            "status": "funny"
+        }
+    ]
+}
